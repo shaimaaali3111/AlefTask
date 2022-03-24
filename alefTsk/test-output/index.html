@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-alef_Suite" class="navigator-link">
+              <span class="suite-name border-passed">alef Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-alef_Suite" class="navigator-link ">
+                    <span>D:\QIQLaptop\AlefTASKSpring\alefTsk\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-alef_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-alef_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-alef_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-alef_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-alef_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-alef_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-alef_Suite" class="hide-methods passed suite-alef_Suite"> (hide)</a> <!-- hide-methods passed suite-alef_Suite -->
+                      <a href="#" panel-name="suite-alef_Suite" class="show-methods passed suite-alef_Suite"> (show)</a> <!-- show-methods passed suite-alef_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-alef_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-alef_Suite" title="tests.OwnersTest" class="method navigator-link" hash-for-method="clickOnAddNewPet">clickOnAddNewPet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-alef_Suite" title="tests.OwnersTest" class="method navigator-link" hash-for-method="clickOnAddOwnersButton">clickOnAddOwnersButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-alef_Suite" title="tests.OwnersTest" class="method navigator-link" hash-for-method="clickOnFindOwnerButton">clickOnFindOwnerButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-alef_Suite" title="tests.OwnersTest" class="method navigator-link" hash-for-method="clickOnOwnersButton">clickOnOwnersButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-alef_Suite" title="tests.VeterinariansTest" class="method navigator-link" hash-for-method="clickOnVeterinarians">clickOnVeterinarians</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-alef_Suite" title="tests.OwnersTest" class="method navigator-link" hash-for-method="getAllOwners">getAllOwners</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-alef_Suite" title="tests.VeterinariansTest" class="method navigator-link" hash-for-method="getAllVeterinarians">getAllVeterinarians</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-alef_Suite" title="tests.HomePageTest" class="method navigator-link" hash-for-method="validateVetPic">validateVetPic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-alef_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-alef_Suite" class="panel alef_Suite">
+          <div class="suite-alef_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.OwnersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnAddNewPet">
+                  </a> <!-- clickOnAddNewPet -->
+                  <span class="method-name">clickOnAddNewPet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnAddOwnersButton">
+                  </a> <!-- clickOnAddOwnersButton -->
+                  <span class="method-name">clickOnAddOwnersButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnFindOwnerButton">
+                  </a> <!-- clickOnFindOwnerButton -->
+                  <span class="method-name">clickOnFindOwnerButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnOwnersButton">
+                  </a> <!-- clickOnOwnersButton -->
+                  <span class="method-name">clickOnOwnersButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllOwners">
+                  </a> <!-- getAllOwners -->
+                  <span class="method-name">getAllOwners</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-alef_Suite-class-passed -->
+          <div class="suite-alef_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateVetPic">
+                  </a> <!-- validateVetPic -->
+                  <span class="method-name">validateVetPic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-alef_Suite-class-passed -->
+          <div class="suite-alef_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.VeterinariansTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnVeterinarians">
+                  </a> <!-- clickOnVeterinarians -->
+                  <span class="method-name">clickOnVeterinarians</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllVeterinarians">
+                  </a> <!-- getAllVeterinarians -->
+                  <span class="method-name">getAllVeterinarians</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-alef_Suite-class-passed -->
+        </div> <!-- panel alef_Suite -->
+        <div panel-name="test-xml-alef_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\QIQLaptop\AlefTASKSpring\alefTsk\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;alef Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;regression Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;tests.VeterinariansTest&quot;/&gt;
+      &lt;class name=&quot;tests.OwnersTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- regression Test --&gt;
+&lt;/suite&gt; &lt;!-- alef Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-alef_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for alef Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">regression Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-alef_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for alef Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-alef_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for alef Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_alef_Suite');
+function tableData_alef_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'clickOnAddNewPet')
+data.setCell(0, 2, 'tests.OwnersTest')
+data.setCell(0, 3, 2741);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getAllOwners')
+data.setCell(1, 2, 'tests.OwnersTest')
+data.setCell(1, 3, 2517);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickOnAddOwnersButton')
+data.setCell(2, 2, 'tests.OwnersTest')
+data.setCell(2, 3, 932);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getAllVeterinarians')
+data.setCell(3, 2, 'tests.VeterinariansTest')
+data.setCell(3, 3, 238);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickOnVeterinarians')
+data.setCell(4, 2, 'tests.VeterinariansTest')
+data.setCell(4, 3, 178);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickOnFindOwnerButton')
+data.setCell(5, 2, 'tests.OwnersTest')
+data.setCell(5, 3, 175);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'clickOnOwnersButton')
+data.setCell(6, 2, 'tests.OwnersTest')
+data.setCell(6, 3, 149);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateVetPic')
+data.setCell(7, 2, 'tests.HomePageTest')
+data.setCell(7, 3, 50);
+window.suiteTableData['alef_Suite']= { tableData: data, tableDiv: 'times-div-alef_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-alef_Suite">
+              </div> <!-- times-div-alef_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-alef_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for alef Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-alef_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.OwnersTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeDriver</span>
+                <br/>
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.VeterinariansTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeDriver</span>
+                <br/>
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-alef_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startDriver(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">validateVetPic</span>
+                <span class="method-start">2193 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=validateVetPic status=SUCCESS method=HomePageTest.validateVetPic()[pri:1, instance:...)</span>
+                <span class="method-start">2246 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.VeterinariansTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickOnVeterinarians</span>
+                <span class="method-start">2249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=clickOnVeterinarians status=SUCCESS method=VeterinariansTest.clickOnVeterinarians()...)</span>
+                <span class="method-start">2429 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getAllVeterinarians</span>
+                <span class="method-start">2430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=getAllVeterinarians status=SUCCESS method=VeterinariansTest.getAllVeterinarians()[p...)</span>
+                <span class="method-start">2670 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OwnersTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickOnOwnersButton</span>
+                <span class="method-start">2671 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=clickOnOwnersButton status=SUCCESS method=OwnersTest.clickOnOwnersButton()[pri:1, i...)</span>
+                <span class="method-start">2821 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnFindOwnerButton</span>
+                <span class="method-start">2824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=clickOnFindOwnerButton status=SUCCESS method=OwnersTest.clickOnFindOwnerButton()[pr...)</span>
+                <span class="method-start">3000 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getAllOwners</span>
+                <span class="method-start">3001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=getAllOwners status=SUCCESS method=OwnersTest.getAllOwners()[pri:3, instance:tests....)</span>
+                <span class="method-start">5519 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnAddOwnersButton</span>
+                <span class="method-start">5520 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=clickOnAddOwnersButton status=SUCCESS method=OwnersTest.clickOnAddOwnersButton()[pr...)</span>
+                <span class="method-start">6453 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnAddNewPet</span>
+                <span class="method-start">6454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ScreenshotOnfailure([TestResult name=clickOnAddNewPet status=SUCCESS method=OwnersTest.clickOnAddNewPet()[pri:5, instanc...)</span>
+                <span class="method-start">9196 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">9252 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

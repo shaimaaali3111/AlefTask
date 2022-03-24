@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="12" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-24T20:58:54 EET" name="alef Suite" finished-at="2022-03-24T20:59:01 EET" duration-ms="7028">
+    <groups>
+    </groups>
+    <test started-at="2022-03-24T20:58:54 EET" name="regression Test" finished-at="2022-03-24T20:59:01 EET" duration-ms="7028">
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.HomePageTest@50caa560]" started-at="2022-03-24T20:58:52 EET" name="startDriver" finished-at="2022-03-24T20:58:54 EET" duration-ms="2168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="validateVetPic()[pri:1, instance:tests.HomePageTest@50caa560]" started-at="2022-03-24T20:58:54 EET" name="validateVetPic" finished-at="2022-03-24T20:58:54 EET" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateVetPic -->
+        <test-method is-config="true" signature="ScreenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@50caa560]" started-at="2022-03-24T20:58:54 EET" name="ScreenshotOnfailure" finished-at="2022-03-24T20:58:54 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateVetPic status=SUCCESS method=HomePageTest.validateVetPic()[pri:1, instance:tests.HomePageTest@50caa560] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnfailure -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.HomePageTest@50caa560]" started-at="2022-03-24T20:59:01 EET" name="closeDriver" finished-at="2022-03-24T20:59:01 EET" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.VeterinariansTest">
+        <test-method signature="clickOnVeterinarians()[pri:1, instance:tests.VeterinariansTest@2a266d09]" started-at="2022-03-24T20:58:54 EET" name="clickOnVeterinarians" finished-at="2022-03-24T20:58:54 EET" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnVeterinarians -->
+        <test-method is-config="true" signature="ScreenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.VeterinariansTest@2a266d09]" started-at="2022-03-24T20:58:54 EET" name="ScreenshotOnfailure" finished-at="2022-03-24T20:58:54 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnVeterinarians status=SUCCESS method=VeterinariansTest.clickOnVeterinarians()[pri:1, instance:tests.VeterinariansTest@2a266d09] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnfailure -->
+        <test-method signature="getAllVeterinarians()[pri:2, instance:tests.VeterinariansTest@2a266d09]" started-at="2022-03-24T20:58:54 EET" name="getAllVeterinarians" finished-at="2022-03-24T20:58:54 EET" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllVeterinarians -->
+        <test-method is-config="true" signature="ScreenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.VeterinariansTest@2a266d09]" started-at="2022-03-24T20:58:54 EET" name="ScreenshotOnfailure" finished-at="2022-03-24T20:58:54 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getAllVeterinarians status=SUCCESS method=VeterinariansTest.getAllVeterinarians()[pri:2, instance:tests.VeterinariansTest@2a266d09] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnfailure -->
+      </class> <!-- tests.VeterinariansTest -->
+      <class name="tests.OwnersTest">
+        <test-method signature="clickOnOwnersButton()[pri:1, instance:tests.OwnersTest@5ab9e72c]" started-at="2022-03-24T20:58:54 EET" name="clickOnOwnersButton" finished-at="2022-03-24T20:58:54 EET" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnOwnersButton -->
+        <test-method is-config="true" signature="ScreenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.OwnersTest@5ab9e72c]" started-at="2022-03-24T20:58:54 EET" name="ScreenshotOnfailure" finished-at="2022-03-24T20:58:54 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnOwnersButton status=SUCCESS method=OwnersTest.clickOnOwnersButton()[pri:1, instance:tests.OwnersTest@5ab9e72c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnfailure -->
+        <test-method signature="clickOnFindOwnerButton()[pri:2, instance:tests.OwnersTest@5ab9e72c]" started-at="2022-03-24T20:58:54 EET" name="clickOnFindOwnerButton" finished-at="2022-03-24T20:58:55 EET" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnFindOwnerButton -->
+        <test-method is-config="true" signature="ScreenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.OwnersTest@5ab9e72c]" started-at="2022-03-24T20:58:55 EET" name="ScreenshotOnfailure" finished-at="2022-03-24T20:58:55 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnFindOwnerButton status=SUCCESS method=OwnersTest.clickOnFindOwnerButton()[pri:2, instance:tests.OwnersTest@5ab9e72c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnfailure -->
+        <test-method signature="getAllOwners()[pri:3, instance:tests.OwnersTest@5ab9e72c]" started-at="2022-03-24T20:58:55 EET" name="getAllOwners" finished-at="2022-03-24T20:58:57 EET" duration-ms="2517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllOwners -->
+        <test-method is-config="true" signature="ScreenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.OwnersTest@5ab9e72c]" started-at="2022-03-24T20:58:57 EET" name="ScreenshotOnfailure" finished-at="2022-03-24T20:58:57 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getAllOwners status=SUCCESS method=OwnersTest.getAllOwners()[pri:3, instance:tests.OwnersTest@5ab9e72c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnfailure -->
+        <test-method signature="clickOnAddOwnersButton()[pri:4, instance:tests.OwnersTest@5ab9e72c]" started-at="2022-03-24T20:58:57 EET" name="clickOnAddOwnersButton" finished-at="2022-03-24T20:58:58 EET" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAddOwnersButton -->
+        <test-method is-config="true" signature="ScreenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.OwnersTest@5ab9e72c]" started-at="2022-03-24T20:58:58 EET" name="ScreenshotOnfailure" finished-at="2022-03-24T20:58:58 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnAddOwnersButton status=SUCCESS method=OwnersTest.clickOnAddOwnersButton()[pri:4, instance:tests.OwnersTest@5ab9e72c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnfailure -->
+        <test-method signature="clickOnAddNewPet()[pri:5, instance:tests.OwnersTest@5ab9e72c]" started-at="2022-03-24T20:58:58 EET" name="clickOnAddNewPet" finished-at="2022-03-24T20:59:01 EET" duration-ms="2741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAddNewPet -->
+        <test-method is-config="true" signature="ScreenshotOnfailure(org.testng.ITestResult)[pri:0, instance:tests.OwnersTest@5ab9e72c]" started-at="2022-03-24T20:59:01 EET" name="ScreenshotOnfailure" finished-at="2022-03-24T20:59:01 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnAddNewPet status=SUCCESS method=OwnersTest.clickOnAddNewPet()[pri:5, instance:tests.OwnersTest@5ab9e72c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotOnfailure -->
+      </class> <!-- tests.OwnersTest -->
+    </test> <!-- regression Test -->
+  </suite> <!-- alef Suite -->
+</testng-results>
